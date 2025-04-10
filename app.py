@@ -6,10 +6,10 @@ from textwrap import wrap
 import matplotlib.patches as mpatches
 
 # Título de la aplicación
-st.title('Generador de Perfil de Estudiante')
+st.title('Generador de Diagnóstico de Evolución de los Líderes de HC')
 
 # Ingresar el nombre del estudiante
-nombre_estudiante = st.text_input('Ingresa el nombre del estudiante:')
+nombre_estudiante = st.text_input('Ingresa el nombre del líder:')
 
 # Ingresar las calificaciones de cada categoría
 categorias = ['Comunicación Efectiva', 'Liderazgo Transformador', 'Negociación', 'Time Management', 'Aprendizaje constante']
