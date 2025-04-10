@@ -63,7 +63,7 @@ ax.set_xticks(ANGLES)
 ax.set_xticklabels(categorias_wrap, size=12, fontweight='bold')
 
 # Título
-ax.set_title(f"Perfil de {nombre_estudiante}", fontsize=18, pad=50)  # Ajusta el 'pad' para más espacio
+ax.set_title(f"Diagnóstico de {nombre_estudiante}", fontsize=18, pad=50)  # Ajusta el 'pad' para más espacio
 
 # Ajustar el margen superior para mover el título más abajo
 fig.subplots_adjust(top=0.80)  # Ajusta este valor para mover el gráfico hacia abajo y separar más el título
